@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('d3js:d3', 'client');
+  api.use('d3js:d3@3.4.13', 'client');
 
   api.add_files('nvd3/build/nv.d3.js', 'client');
   api.add_files('nvd3/build/nv.d3.css', 'client');
